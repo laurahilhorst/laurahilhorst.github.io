@@ -1,0 +1,38 @@
+.header {
+	font-family: 'Old Standard TT', serif;
+	font-size: 60px;
+	padding-bottom: 0px;
+	margin: 0px;
+
+}
+ 
+a:link, a:visited {
+	color: #000000;
+	text-decoration: none;
+
+}
+
+
+h1 {
+	text-align: center;
+
+}
+
+.subheader {
+	text-align: center;
+	font-family: 'Old Standard TT', serif;
+	font-size: 20px;
+	color: #ff9900;
+	margin-top: 0px;
+	padding-top: 0px;
+
+}
+
+ul class='navbar' {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
