@@ -7,6 +7,14 @@ body {
 p {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+p.footer{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin: 0px;
+}
+
 .header {
 	display: block;
 	margin-left: auto;
@@ -27,20 +35,21 @@ p {
 .pagehead {
 	font-family: 'Bitter', serif;
 	color: #0E8A7D;
+	text-align: center;
 
 }
  
-.week {
+.linkItem {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #004466;
 	text-decoration: none;
 }
 
-a:hover {
+a.navbar:hover, a.linkItem:hover {
 	color: #ff9900;
 	text-decoration: none;
-}
 
+}
 
 #wrapper {
 	height: 100%;
@@ -51,6 +60,10 @@ a:hover {
 	overflow: auto;
 }
 
+#cont-del, #cont-dump {
+	width: 80%;
+	margin: auto;
+}
 
 h1 {
 	text-align: center;
@@ -62,24 +75,25 @@ ul.navbar{
 	text-align: center;
 	font-family: 'Bitter', serif;
 	color: #14CCB9;
-	text-decoration: none;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	position: inline;
 }
 
 li.navbar{
-	position: inline;
 	text-align: center;
+	display: inline;
 	color: #14CCB9;
-
-
 }
 
 a.navbar {
-	display: block;
+	text-decoration: none;
+	color: #000000;
 }
+.linkItem {
+	font-size: 18px;
+}
+
 
 div #about-me {
 	width: 48%;
@@ -109,3 +123,8 @@ div #about-site {
 	max-width: 420px;
 }
 
+#poster {
+	height: auto;
+	width: 420px;
+
+}
